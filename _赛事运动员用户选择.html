@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Single Page</title>
+        <style>
+            div {
+                display: none;
+            }
+
+        table{
+            background: #DCDCDC;    
+            border-collapse: collapse;  
+            margin: auto;
+        }
+
+        td.name{
+            border-style: solid;
+            border-color:white;
+        }
+
+        button:hover {
+                background-color:#B22222;
+                color:white;
+            }
+
+        </style>
+        <script src="singlepage.js"></script>
+    </head>
+    <body style="text-align: center;">
+        <button data-page="page1">赛事项目</button>
+        <button data-page="page2">用户</button>
+        <button data-page="page3">运动员</button>
+        <div id="page1">
+            <h2>赛事项目热度排行</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="background:gold">1</td>
+                        <td class="name">乒乓球</td>
+                    </tr>
+                    <tr>
+                        <td style="background:#F8F8FF">2</td>
+                        <td class="name">女子100米</td>
+                    </tr>
+                    <tr>
+                        <td style="background:#CD853F">3</td>
+                        <td class="name">花样滑冰</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div id="page2">
+            </table>
+            <h2>用户预测准确率排行</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="background:gold">1</td>
+                        <td class="name">hahaha</td>
+                    </tr>
+                    <tr>
+                        <td style="background:#F8F8FF">2</td>
+                        <td class="name">我是大魔王</td>
+                    </tr>
+                    <tr>
+                        <td style="background:#CD853F">3</td>
+                        <td class="name">小王</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div id="page3">
+            <h2>运动员热度排行</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="background:gold">1</td>
+                        <td class="name">孙颖莎</td>
+                    </tr>
+                    <tr>
+                        <td style="background:#F8F8FF">2</td>
+                        <td class="name">苏炳添</td>
+                    </tr>
+                    <tr>
+                        <td style="background:#CD853F">3</td>
+                        <td class="name">张雨霏</td>
+                    </tr>
+                </tbody>
+        </div>
+    </body>
+</html>
